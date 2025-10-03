@@ -1,3 +1,15 @@
+
+| Component       | Program            | 
+| --------------- |:------------------:|
+| Windows Manager | Sway               | 
+| Terminal        | Kitty              | 
+| Fetch           | Fastfetch          |
+| File Manager    | Nautilus / ranger  | 
+| Browser         | Firefox / Waterfox | 
+| Bar             | Waybar             |
+| Launcher        | wofi               | 
+| Login Menu      | ly                 | 
+
 Packages:
 
 pacman: wl-clipboard waybar wofi grim slurp polkit-kde-agent swaybg firefox kitty
