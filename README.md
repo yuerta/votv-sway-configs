@@ -1,14 +1,14 @@
 
 | Component       | Program            | 
 | --------------- |:------------------:|
-| Windows Manager | Sway               | 
-| Terminal        | Kitty              | 
-| Fetch           | Fastfetch          |
-| File Manager    | Nautilus / ranger  | 
-| Browser         | Firefox / Waterfox | 
-| Bar             | Waybar             |
-| Launcher        | wofi               | 
-| Login Menu      | ly                 | 
+| Windows Manager | [Sway](https://github.caom/swaywm/sway)| 
+| Terminal        | [kitty](https://github.com/kovidgoyal/kitty)| 
+| Fetch           | [Fastfetch](https://github.com/kovidgoyal/kitty)|
+| File Manager    | [Nautilus](https://github.com/GNOME/nautilus) / [ranger](https://github.com/ranger/ranger) | 
+| Browser         | [Firefox](https://github.com/topics/firefox-browser) / [Waterfox](https://github.com/BrowserWorks/Waterfox)| 
+| Bar             | [Waybar](https://github.com/Alexays/Waybar) |
+| Launcher        | [wofi](https://github.com/SimplyCEO/wofi)  | 
+| Login Menu      | [ly](https://github.com/fairyglade/ly)  | 
 
 Packages:
 
