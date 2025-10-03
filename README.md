@@ -1,4 +1,4 @@
-
+!! ALL THE FILES WERE MADE WITH INTENTION OF BEING PLACED IN ~/.configs. !!
 | Component       | Program            | 
 | --------------- |:------------------:|
 | Windows Manager | [Sway](https://github.com/swaywm/sway)| 
