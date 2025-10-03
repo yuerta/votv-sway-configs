@@ -2,6 +2,8 @@
 
 Packages:
 
-pacman: wl-clipboard waybar wofi grim slurp polkit-kde-agent swaybg firefox
+pacman: wl-clipboard waybar wofi grim slurp polkit-kde-agent swaybg firefox kitty
 
 yay: vesktop gpu-usage-waybar-git
+
+In order for fastfetch to appear when running the terminal you need to input the context of bashrc.txt into your ~/.bashrc file
