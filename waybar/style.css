@@ -1,0 +1,61 @@
+* {
+  font-family: Share Tech Mono;
+  border-radius: 0;
+  font-size: 20px;
+  padding: 0px;
+  background: transparent;
+}
+
+#battery,
+#cpu,
+#network,
+#clock,
+#custom-applauncher,
+#custom-gpu-usage,
+#tray,
+#workspaces,
+#pulseaudio {
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0px;
+  margin-right: 5px;
+  padding: 4px 8px;
+  border: 2px solid rgb(0, 190, 255);
+  color: #ffffff;
+  transition-duration: 120ms;
+}
+
+#cpu{
+  margin-right: 6px;
+}
+
+#pulseaudio:hover {
+  border: 2px solid #ff1493;
+  transition-duration: 120ms;
+}
+
+#custom-applauncher {
+  font-weight: bold;
+  transition-duration: 120ms;
+}
+
+#tray menu {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 4px;
+}
+#tray menu menuitem {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+
+  margin: 3px;
+  color: #ffffff;
+  border-radius: 0px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #27232b;
+}
+#tray menu menuitem:hover {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+  color: #00beff;
+  font-weight: bold;
+}
+

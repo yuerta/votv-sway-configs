@@ -1,0 +1,61 @@
+{
+  "layer": "bot",
+  "spacing": 0,
+  "height": 0,
+  "margin-bottom": 0,
+  "margin-top": 0,
+  "position": "top",
+  "margin-right": 0,
+  "margin-left": 0,
+  "modules-left": [
+    "cpu",
+    "custom/gpu-usage"
+  ],
+  "modules-right": [
+    "network",
+    "battery",
+    "pulseaudio",
+    "tray",
+    "clock"
+  ],
+  "custom/gpu-usage":{
+    "format": "GPU: {} {icon}",
+    "exec": "gpu-usage-waybar",
+    "return-type": "json",
+    "on-click": "ghostty -e nvtop"
+  },
+  "tray": {
+    "spacing": 10,
+    "tooltip": false
+  },
+  "clock": {
+    "format": "DATE/TIME: {:%d-%m-%Y | %H:%M}",
+    "tooltip": false
+  },
+  "network": {
+    "format-wifi": "모 {bandwidthDownBits}",
+    "format-ethernet": "DOWNLOAD: {bandwidthDownBits}",
+    "format-disconnected": "SATELLITE IS DOWN",
+    "interval": 5,
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "max-volume": 150,
+    "format": "VOLUME: {volume}%",
+    "format-bluetooth": "{icon} {volume}%",
+    "format-icons": [
+      "🕪",
+      "🕪",
+      "🕪"
+    ],
+    "nospacing": 1,
+    "format-muted": " ",
+    "on-click": "pavucontrol",
+    "tooltip": false
+  },
+  "cpu":{
+    "format": "CPU: {usage}%",
+    "interval": 1
+  }
+}
