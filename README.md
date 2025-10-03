@@ -1,7 +1,7 @@
 
 | Component       | Program            | 
 | --------------- |:------------------:|
-| Windows Manager | [Sway](https://github.caom/swaywm/sway)| 
+| Windows Manager | [Sway](https://github.com/swaywm/sway)| 
 | Terminal        | [kitty](https://github.com/kovidgoyal/kitty)| 
 | Fetch           | [Fastfetch](https://github.com/kovidgoyal/kitty)|
 | File Manager    | [Nautilus](https://github.com/GNOME/nautilus) / [ranger](https://github.com/ranger/ranger) | 
