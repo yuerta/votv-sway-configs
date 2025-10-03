@@ -12,7 +12,7 @@
 
 Packages:
 
-pacman: wl-clipboard waybar wofi grim slurp polkit-kde-agent swaybg firefox kitty pipe
+pacman: wl-clipboard waybar wofi grim slurp polkit-kde-agent swaybg firefox kitty pipewire
 
 yay: vesktop gpu-usage-waybar-git
 
